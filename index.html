@@ -15,10 +15,10 @@
       <nav class="menu">
         <ol>
           <li>
-            <a href="#">Portfolio</a>
+            <a href="#portfolioId">Portfolio</a>
           </li>
           <li>
-            <a href="#">Experience</a>
+            <a href="#eventsId">Experience</a>
           </li>
           <li>
             <a href="#">Contact</a>
@@ -29,14 +29,32 @@
     <section class="hero">
       <div class="container">
         <h1>Hello! I'm <strong>Elvis Retiz</strong>,<br>Javascript <strong>Developer</strong> with a <br>passion for <strong>teaching</strong></h1>
-        <img class="hero-image" src="" alt="">
+        <img class="hero-image" src="src/hero-image.jpg" alt="">
       </div>
     </section>
-    <div class="Projects">
-
+    <section id="portfolioId" class="portfolio">
+      <div class="container">
+        <h2>Portfolio (Featured projects)</h2>
+      <article class="project">
+        <div class="project-details">
+          <h3 class="project-title">Criptex web version</h3>
+          <h6 class="project technology">HTML/CSS/Javascript</h6>
+          <p class="project-date"><small><strong>Date: </strong>20/11/2018</small></p>
+          <p class="project-url"><small><strong>You can see it in: </strong><a href="https://github.com/ElvisRetiz/VirtualCriptex" target="_blank">www.elvisretiz.com/criptex</a></small></p>
+          <p class="project-description">I was always a lover of cryptography, this passion led me to develop this small but entertaining ... game ?. Using the technologies of html, css and javascript I managed to recreate a modern criptex.
+            Criptex web will make you feel like a treasure hunter when finding the answer of this enigma.</p>
+        </div>
+        <figure class="project-imageContainer">
+          <img class="project-image" src="src/criptex.jpg" alt="image from criptex web project">
+        </figure>
+      </article>
+      </div>
+    </section>
+    <div class="container">
+      <h2 class="event-list-title">More about my experience</h2>
     </div>
-    <div class="">
+    <section id="eventsId" class="event-list">
 
-    </div>
+    </section>
   </body>
 </html>
