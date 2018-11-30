@@ -86,16 +86,6 @@ ol{
   padding: 0 10px;
 }
 
-.container{
-  width: 1000px;
-  margin: 0 auto;
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
-  height: inherit;
-  flex-wrap: inherit;
-}
-
 .hero{
   height: 300px;
   background-color: #132238;
@@ -287,4 +277,14 @@ ol{
 
 .footer a{
   color: white;
+}
+
+.container{
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
 }
