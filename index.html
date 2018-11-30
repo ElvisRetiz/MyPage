@@ -2,14 +2,15 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Source+Sans+Pro:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Elvis Retiz</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
         <figure class="logo">
-          <img src="" alt="">
+          <img src="src/ER-logo.png" alt="">
         </figure>
       </div>
       <nav class="menu">
@@ -21,7 +22,7 @@
             <a href="#eventsId">Experience</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#contactId">Contact</a>
           </li>
         </ol>
       </nav>
@@ -46,6 +47,18 @@
         </div>
         <figure class="project-imageContainer">
           <img class="project-image" src="src/criptex.jpg" alt="image from criptex web project">
+        </figure>
+      </article>
+      <article class="project">
+        <div class="project-details">
+          <h3 class="project-title">Curriculum Vitae web version</h3>
+          <h6 class="project technology">HTML/CSS</h6>
+          <p class="project-date"><small><strong>Date: </strong>20/11/2018</small></p>
+          <p class="project-url"><small><strong>You can see it in: </strong><a href="https://elvisretiz.github.io/CurriculumVitae/" target="_blank">www.elvisretiz.com/cv</a></small></p>
+          <p class="project-description">As an attempt to practice my knowledge in html and CSS I decided to create this web page that has as function to be my curriculum vitae. Perhaps something simple can appear but as a beginner in these technologies it took a lot of work and it is something that I am proud of.</p>
+        </div>
+        <figure class="project-imageContainer">
+          <img class="project-image" src="src/cv.jpg" alt="image from criptex web project">
         </figure>
       </article>
       </div>
@@ -85,7 +98,44 @@
             <a class="event-url" href="https://docs.google.com/document/d/1vZNv4xc3yYDXX2H-CKD9Ik1R4FFlmnNNFgU2X0j5tEk/edit?usp=sharing" target="_blank">See content</a>
           </div>
         </article>
+        <article class="event">
+          <figure class="event-imageContainer">
+            <img class="event-image" src="src/event-image.jpg" alt="">
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title">CRECE Course 2018</h3>
+            <p class="event-description">Once a semester is trained on a specific topic to young Christians committed to change, this semester I had the opportunity to talk about the 3 characteristics necessary to initiate a real change.</p>
+            <a class="event-url" href="https://docs.google.com/document/d/1vZNv4xc3yYDXX2H-CKD9Ik1R4FFlmnNNFgU2X0j5tEk/edit?usp=sharing" target="_blank">See content</a>
+          </div>
+        </article>
       </div>
     </section>
+    <section id="contactId" class="contact">
+      <div class="container">
+        <form action="/surcription/" class="form-email">
+          <h3>Do we create something together?</h3>
+          <input type="text" placeholder="Leave me your email" id="email">
+          <button>Send</button>
+        </form>
+        <div class="social">
+          <a href="#" class="social-link twitter"></a>
+          <a href="#" class="social-link facebook"></a>
+          <a href="#" class="social-link instagram"></a>
+          <a href="#" class="social-link github"></a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <p>Portfolio of the year 2018</p>
+        </div>
+        <div>
+          <p>
+            Designed thanks to the courses of <a href="https://platzi.com/">Platzi</a>
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

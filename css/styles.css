@@ -1,0 +1,290 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+}
+
+h1{
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: -.5px;
+  color: white;
+}
+
+h1 strong {
+  color: #026fff;
+}
+
+h2{
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+figure{
+  margin: 0;
+}
+
+.header{
+  background-color: #364e68;
+  color: white;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img{
+  height: inherit;
+}
+
+ol{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header figure{
+  height: 50px;
+  margin: 0;
+}
+
+.header a{
+  color: white;
+  text-decoration: none;
+}
+
+.menu{
+  height: inherit;
+}
+
+.header ol{
+  display: flex;
+  height: inherit;
+}
+
+.header ol li{
+  height: inherit;
+}
+
+.header a{
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
+}
+
+.container{
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
+.hero{
+  height: 300px;
+  background-color: #132238;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-image{
+  object-fit: cover;
+  display: flex;
+  height: inherit;
+  width: 500px;
+}
+
+.portfolio{
+  background: #fafafa;
+  padding: 20px;
+}
+
+.project{
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-courses,
+.project-date,
+.project-url{
+  margin: 10px 0;
+}
+
+.project-description{
+  font-size: 20px;
+}
+
+.project strong{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.project-title{
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.project-technology{
+  width: 50%;
+}
+
+.project-details{
+  width: 500px;
+}
+
+.project-imageContainer{
+  width: 500px;
+  margin-left: 20px;
+}
+
+.project-image{
+  width: inherit;
+}
+
+.event-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event-list-title{
+  margin-left: 20px;
+}
+
+.event{
+  margin: 10px;
+  width: 480px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f4fbff;
+}
+
+.event img{
+  height: 200px;
+  width: 480px;
+  object-fit: cover;
+}
+
+.event-detail{
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.event-description{
+  text-align: left;
+}
+
+.event-url{
+  color: #056fff;
+  border: 1px solid;
+  padding: 5px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.contact{
+  background-color: #056fff;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social{
+
+}
+
+.social-link{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  background-size: 50px 50px;
+}
+
+.social-link.twitter{
+  background-image: url('C:/Users/elvis/Documents/Elvis/HTML/MyPage/MyPage/src/twitter.png');
+}
+
+.social-link.instagram{
+  background-image: url('C:/Users/elvis/Documents/Elvis/HTML/MyPage/MyPage/src/instagram.png');
+}
+
+.social-link.github{
+  background-image: url('C:/Users/elvis/Documents/Elvis/HTML/MyPage/MyPage/src/github.png');
+}
+
+.social-link.facebook{
+  background-image: url('C:/Users/elvis/Documents/Elvis/HTML/MyPage/MyPage/src/fb.png');
+}
+
+.form-email input{
+  border-color: grey;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px 20px 10px 25px;
+  background-image: url('C:/Users/elvis/Documents/Elvis/HTML/MyPage/MyPage/src/mail.png');
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+}
+
+.form-email button{
+  display: block;
+  background: transparent;
+  color: white;
+  padding: 10px 0;
+  border-radius: 5px;
+  width: 100px;
+  margin: 10px 0;
+}
+
+.form-email h3{
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer{
+  color: white;
+  background-color: #1b2127;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer img{
+  vertical-align: middle;
+}
+
+.footer a{
+  color: white;
+}
